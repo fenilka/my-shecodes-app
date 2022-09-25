@@ -23,6 +23,8 @@ p {
   height: 19px;
   line-height: 1;
   list-style: none;
+}
+li:first-letter {
   text-transform: capitalize;
 }
 i {
