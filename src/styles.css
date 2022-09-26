@@ -38,6 +38,9 @@ small {
   font-size: 80%;
   font-weight: 400;
 }
+a {
+  text-decoration: none;
+}
 
 .weather-app {
   border: 1px solid #dadde1;
@@ -73,4 +76,14 @@ small {
 .one-day-row {
   display: block;
   text-align: center;
+}
+.active {
+  color: rgb(35, 35, 35);
+  cursor: default;
+  text-decoration: none;
+}
+.active:hover {
+  color: rgb(35, 35, 35);
+  cursor: default;
+  text-decoration: none;
 }
