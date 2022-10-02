@@ -50,7 +50,17 @@ function displayForecast(response) {
                 alt=""
                 width="42">
               </li>
-              <li><br />27° 19°</li>
+              </br>
+              <li>
+              <span class="forecast-temperature-max"> ${Math.round(
+                forecastDay.temp.max
+              )}°
+              </span>
+              <span class="forecast-temperature-min"> ${Math.round(
+                forecastDay.temp.min
+              )}°
+              </span>
+              </li>
             </ul>
           </div>
         `;

@@ -86,3 +86,12 @@ a {
   cursor: default;
   text-decoration: none;
 }
+
+.forecast-temperature-max {
+  font-size: 14px;
+}
+
+.forecast-temperature-min {
+  opacity: 0.5;
+  font-size: 14px;
+}
