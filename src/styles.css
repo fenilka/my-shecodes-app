@@ -27,8 +27,7 @@ p {
 li:first-letter {
   text-transform: capitalize;
 }
-i {
-  display: block;
+img {
   margin: 0 auto;
 }
 small {
